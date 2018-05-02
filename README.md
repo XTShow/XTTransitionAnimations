@@ -1,6 +1,7 @@
 # XTTransitionAnimations
 XTTransitionAnimations can let you implement a custom transition animation by **only One line of code**.
 
+[中文说明](www.baidu.com)
 ### Features
 - Implement a custom transition animation by only one line of code, and it is very similar to the iOS system's present and push transiton api. Low learning cost;
 - Support configure parameters about animation, such as duration, damping ratio, timing function, etc.;
@@ -9,13 +10,15 @@ XTTransitionAnimations can let you implement a custom transition animation by **
 - There is matching transition animation for dismiss/pop in default, it also can be configured separately;
 - For interactive animation, elastic animation and linear animation are automatically switched.
 
-![Spring From Bottom(present,interact,XTSpringFromEdgeAnimation)](https://upload-images.jianshu.io/upload_images/2161270-a9dbba841b96a9de.gif?imageMogr2/auto-orient/strip)
-![Spring From Right(push,interact,XTSpringFromEdgeAnimation)](https://upload-images.jianshu.io/upload_images/2161270-28ffdce62291c86d.gif?imageMogr2/auto-orient/strip)
-![Round Spring Expand(present,interact,XTRoundExpandAnimation)
-](https://upload-images.jianshu.io/upload_images/2161270-71823a5915a28193.gif?imageMogr2/auto-orient/strip)
-![Card Spring From Bottom(present,interact,XTCardPresentAnimation)](https://upload-images.jianshu.io/upload_images/2161270-a68f887515a46c8e.gif?imageMogr2/auto-orient/strip)
-![Cube Rotate From Right(push,interact,XTCubeAnimation)](https://upload-images.jianshu.io/upload_images/2161270-0db54858452f2582.gif?imageMogr2/auto-orient/strip)
-![Cube Rotate From Top(present,interact,XTCubeAnimation).gif](https://upload-images.jianshu.io/upload_images/2161270-38cdedeba3e67d77.gif?imageMogr2/auto-orient/strip)
+
+
+![Spring From Bottom(present,interact,XTSpringFromEdgeAnimation)](https://upload-images.jianshu.io/upload_images/2161270-a9dbba841b96a9de.gif?imageMogr2/auto-orient/strip "Spring From Bottom(present,interact,XTSpringFromEdgeAnimation)")
+![Spring From Right(push,interact,XTSpringFromEdgeAnimation)](https://upload-images.jianshu.io/upload_images/2161270-28ffdce62291c86d.gif?imageMogr2/auto-orient/strip "Spring From Right(push,interact,XTSpringFromEdgeAnimation)")
+![Round Spring Expand(present,interact,XTRoundExpandAnimation)](https://upload-images.jianshu.io/upload_images/2161270-71823a5915a28193.gif?imageMogr2/auto-orient/strip "Round Spring Expand(present,interact,XTRoundExpandAnimation)")
+![Card Spring From Bottom(present,interact,XTCardPresentAnimation)](https://upload-images.jianshu.io/upload_images/2161270-a68f887515a46c8e.gif?imageMogr2/auto-orient/strip "Card Spring From Bottom(present,interact,XTCardPresentAnimation)")
+![Cube Rotate From Right(push,interact,XTCubeAnimation)](https://upload-images.jianshu.io/upload_images/2161270-0db54858452f2582.gif?imageMogr2/auto-orient/strip "Cube Rotate From Right(push,interact,XTCubeAnimation)")
+![Cube Rotate From Top(present,interact,XTCubeAnimation)](https://upload-images.jianshu.io/upload_images/2161270-38cdedeba3e67d77.gif?imageMogr2/auto-orient/strip "Cube Rotate From Top(present,interact,XTCubeAnimation)")
+
 
 
 #### Just implement an animation object to customize your own transition animation
@@ -54,7 +57,7 @@ Now, you can use the api of this framework to implement yourself transition anim
 [self XT_PresentViewController:vc animatedType:XTSpringFromBottom interact:NO completion:nil];
 [self.navigationController XT_PushViewController:vc animatedType:XTRoundExpand interact:YES];
 ````
-##### Api Document
+#### Api Document
 ###### Present
 ````
 /**
