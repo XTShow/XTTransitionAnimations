@@ -1,7 +1,8 @@
 # XTTransitionAnimations
 XTTransitionAnimations can let you implement a custom transition animation by **only One line of code**.
 
-[中文说明](www.baidu.com)
+[中文说明](https://www.jianshu.com/p/eb75cb49b548)
+
 ### Features
 - Implement a custom transition animation by only one line of code, and it is very similar to the iOS system's present and push transiton api. Low learning cost;
 - Support configure parameters about animation, such as duration, damping ratio, timing function, etc.;
