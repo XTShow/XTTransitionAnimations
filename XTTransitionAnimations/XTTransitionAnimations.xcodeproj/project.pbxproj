@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720D0B3A20B94BBF007E2C22 /* UINavigationController+XTTransitionAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 720D0B3920B94BBF007E2C22 /* UINavigationController+XTTransitionAnimations.m */; };
 		724B7DDD2079A80200C0C811 /* ShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724B7DDC2079A80200C0C811 /* ShowVC.m */; };
 		7254E2F92091AB6A006C4BC6 /* XTDelegateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7254E2DE2091AB6A006C4BC6 /* XTDelegateHandler.m */; };
-		7254E2FA2091AB6A006C4BC6 /* UINavigationController+XTTransitionAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7254E2E02091AB6A006C4BC6 /* UINavigationController+XTTransitionAnimations.m */; };
 		7254E2FB2091AB6A006C4BC6 /* UIViewController+XTTransitionAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7254E2E22091AB6A006C4BC6 /* UIViewController+XTTransitionAnimations.m */; };
 		7254E2FC2091AB6A006C4BC6 /* XTCardPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7254E2E62091AB6A006C4BC6 /* XTCardPresentationController.m */; };
 		7254E2FD2091AB6A006C4BC6 /* XTBaseInteractiveObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 7254E2EC2091AB6A006C4BC6 /* XTBaseInteractiveObj.m */; };
@@ -29,10 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		720D0B3920B94BBF007E2C22 /* UINavigationController+XTTransitionAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XTTransitionAnimations.m"; sourceTree = "<group>"; };
 		724B7DDB2079A80200C0C811 /* ShowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowVC.h; sourceTree = "<group>"; };
 		724B7DDC2079A80200C0C811 /* ShowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowVC.m; sourceTree = "<group>"; };
 		7254E2DE2091AB6A006C4BC6 /* XTDelegateHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTDelegateHandler.m; sourceTree = "<group>"; };
-		7254E2E02091AB6A006C4BC6 /* UINavigationController+XTTransitionAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XTTransitionAnimations.m"; sourceTree = "<group>"; };
 		7254E2E12091AB6A006C4BC6 /* UIViewController+XTTransitionAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XTTransitionAnimations.h"; sourceTree = "<group>"; };
 		7254E2E22091AB6A006C4BC6 /* UIViewController+XTTransitionAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XTTransitionAnimations.m"; sourceTree = "<group>"; };
 		7254E2E32091AB6A006C4BC6 /* UINavigationController+XTTransitionAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+XTTransitionAnimations.h"; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 				7254E2E12091AB6A006C4BC6 /* UIViewController+XTTransitionAnimations.h */,
 				7254E2E22091AB6A006C4BC6 /* UIViewController+XTTransitionAnimations.m */,
 				7254E2E32091AB6A006C4BC6 /* UINavigationController+XTTransitionAnimations.h */,
-				7254E2E02091AB6A006C4BC6 /* UINavigationController+XTTransitionAnimations.m */,
+				720D0B3920B94BBF007E2C22 /* UINavigationController+XTTransitionAnimations.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -248,7 +248,6 @@
 			files = (
 				7254E2FF2091AB6A006C4BC6 /* XTCommonValue.m in Sources */,
 				7254E2F92091AB6A006C4BC6 /* XTDelegateHandler.m in Sources */,
-				7254E2FA2091AB6A006C4BC6 /* UINavigationController+XTTransitionAnimations.m in Sources */,
 				7254E2FE2091AB6A006C4BC6 /* XTPanInteractive.m in Sources */,
 				7254E3022091AB6A006C4BC6 /* XTCardPresentAnimation.m in Sources */,
 				7254E2FB2091AB6A006C4BC6 /* UIViewController+XTTransitionAnimations.m in Sources */,
@@ -257,6 +256,7 @@
 				72F1A6C42074C45D0066866A /* MenuVC.m in Sources */,
 				7254E3002091AB6A006C4BC6 /* XTRoundExpandAnimation.m in Sources */,
 				7254E3032091AB6A006C4BC6 /* XTSpringFromEdgeAnimation.m in Sources */,
+				720D0B3A20B94BBF007E2C22 /* UINavigationController+XTTransitionAnimations.m in Sources */,
 				7254E2FD2091AB6A006C4BC6 /* XTBaseInteractiveObj.m in Sources */,
 				72F1A6BC2074C3840066866A /* main.m in Sources */,
 				72F1A6AE2074C3840066866A /* AppDelegate.m in Sources */,

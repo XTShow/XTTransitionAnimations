@@ -23,7 +23,7 @@
             percent：点数占屏幕宽或高的百分比；（通过以上两个参数计算完成过场动画所需的位移点数）
             absolutePointNum：输入具体的点数，位移距离达到指定点数则当前动画达到完成条件（优先于以上两个参数生效）
  
- 如果你想自定义新的动画，只需完成该配置文件，并生成动画对象（例如Animations文件夹中的类）,如需新的交互方式，只需生成继承于XTBaseInteractiveObj类的交互对象（例如Interactive文件夹中的类），最后维护convertAnimationTypeEnumToStr方法，你就可以使用本框架统一的api来调用你自己的转场动画了！
+ 如果你想自定义新的动画，只需完成该配置文件，并生成动画对象（例如Animations文件夹中的类）,如需新的交互方式，只需生成继承于XTBaseInteractiveObj类的交互对象（例如Interactive文件夹中的类），最后维护convertAnimationTypeEnumToStr:方法，你就可以使用本框架统一的api来调用你自己的转场动画了！
  */
 /**
  XTAnimationsConfig.plist is used to configure each XTAnimationType;
@@ -39,7 +39,7 @@
         percent:The percentage of point number to the width or height of the screen;(calculates the points number required complete transition through the above two parameters)
         absolutePointNum:Specifies the points number, if the displacement distance reaches the points number, the current transition animation reaches the completion condition;(priority is given to the above two parameters)
  
- If you want to customize a new animation, just complete the configuration file and create an animation object(such as the class in the Animations folder); if you need new interaction method, simply create an interactive object that is inherits from XTBaseInteractiveObj(such as the class in the Interactive folder); in finally, maintain the convertAnimationTypeEnumToStr selector, you can use the api of this framework to implement yourself transition animation!
+ If you want to customize a new animation, just complete the configuration file and create an animation object(such as the class in the Animations folder); if you need new interaction method, simply create an interactive object that is inherits from XTBaseInteractiveObj(such as the class in the Interactive folder); in finally, maintain the convertAnimationTypeEnumToStr: selector, you can use the api of this framework to implement yourself transition animation!
  */
 
 #pragma mark - 枚举类型

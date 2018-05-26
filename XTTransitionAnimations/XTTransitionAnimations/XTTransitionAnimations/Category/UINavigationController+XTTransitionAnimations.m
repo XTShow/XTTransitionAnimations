@@ -118,16 +118,23 @@ static NSString * const ShouldRemoveDicKey = @"ShouldRemoveDicKey";
 
 -(UIViewController *)XT_PopViewControllerAnimated:(BOOL)animated{
     
-    UIViewController *popToVC = self.viewControllers[self.viewControllers.count - 2];
+    UIViewController *popToVC;
+    if (self.viewControllers.count >= 2) {//在navVC的rootVC上（没有pop的VC），也可以调用该方法，防止崩溃
+        popToVC = self.viewControllers[self.viewControllers.count - 2];
+    }
+
     id delegateObj = [self checkDelegateHandlerAndDeleteFrom:self.topViewController To:popToVC];
     
-    self.delegate = delegateObj;
+    self.delegate = delegateObj?delegateObj:self.delegate;
+    
     return [self XT_PopViewControllerAnimated:animated];
 }
 
 -(NSArray<UIViewController *> *)XT_PopToViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    
     id delegateObj = [self checkDelegateHandlerAndDeleteFrom:self.topViewController To:viewController];
-    self.delegate = delegateObj;
+    self.delegate = delegateObj?delegateObj:self.delegate;
+    
     return [self XT_PopToViewController:viewController animated:animated];
 }
 
@@ -136,7 +143,8 @@ static NSString * const ShouldRemoveDicKey = @"ShouldRemoveDicKey";
     UIViewController *popToVC = self.viewControllers.firstObject;
     id delegateObj = [self checkDelegateHandlerAndDeleteFrom:self.topViewController To:popToVC];
     
-    self.delegate = delegateObj;
+    self.delegate = delegateObj?delegateObj:self.delegate;
+    
     return [self XT_PopToRootViewControllerAnimated:animated];
 }
 
